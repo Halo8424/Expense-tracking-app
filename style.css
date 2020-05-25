@@ -11,7 +11,7 @@
 
 body {
     /* background-color: #f7f7f7; */
-    background-image: url("./image/money-tree.jpg");
+    background-image: url("image/money-tree.jpg");
     background-position: 50% 50%;
     display: flex;
     flex-direction: column;
