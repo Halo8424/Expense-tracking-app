@@ -13,3 +13,17 @@ const dummyTransactions = [
     {id: 4, text: 'Camera', amount: 150}
 ];
 
+let transactions = dummyTransactions;
+
+// add transactions to the DOM
+function addTransactionDOM(transaction){
+    //  Get sign
+    const sign = transaction.amount < 0 ? '-' : '+';
+
+    const item = document.createElement('li');
+
+    // Add class based on value
+    item.classList.add(transaction.amount < 0 ? 'minus' : 'plus');
+    
+}
+
