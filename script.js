@@ -30,5 +30,15 @@ function addTransactionDOM(transaction){
         <button class="delete-btn">x</button>
     `;
 
+    list.appendChild(item);
 }
+
+// Init app
+function init() {
+    list.innerHTML = "";
+
+    transactions.forEach(addTransactionDOM);
+}
+
+init();
 
