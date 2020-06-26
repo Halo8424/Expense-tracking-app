@@ -21,3 +21,13 @@ _Add a name for the transaction & enter a negative whole number for expense
 
 <img src="images/expt05.png" width=300>
 
+_Expense-tracking will update your current balance and track expenses.
+
+<img src="images/expt06.png"width=300>
+
+_Deleting a transaction is easy, just hover over left of transaction name and delete. 
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
